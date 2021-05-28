@@ -4,4 +4,40 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-container {
+  position: absolute;
+  width: 133px;
+  height: 25px;
+  left: 24px;
+  top: 20px;
+}
+
+.nav-container .logo {
+  font-family: "Inconsolata", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+.hero-section .hero-img {
+  background-image: url(/images/Scarecrow.png);
+  height: 238px;
+  width: 286.83px;
+  background-size: contain;
+  position: absolute;
+  left: 11.73%;
+  right: 11.78%;
+  top: 11.49%;
+  bottom: 65.29%;
+}
 /*# sourceMappingURL=styles.css.map */
