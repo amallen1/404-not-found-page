@@ -29,7 +29,6 @@ body {
 }
 
 .hero-section {
-
   .hero-img {
     background-image: url(/images/Scarecrow.png);
     height: 238px;
@@ -41,4 +40,58 @@ body {
     top: 11.49%;
     bottom: 65.29%;
   }
+
+  .heading {
+    font-family: "Space Mono", sans-serif;
+    position: absolute;
+    width: 350px;
+    height: 142px;
+    left: 24px;
+    top: 407px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+  }
+
+  .disclaimer {
+    position: absolute;
+    width: 328px;
+    height: 81px;
+    left: 23px;
+    top: 579px;
+
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+
+    /* Gray 2 */
+
+    color: #4f4f4f;
+  }
+
+  button {
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    left: 24px;
+    top: 726px;
+    border: none;
+    background: #333333;
+    font-family: "Space Mono", sans-serif;
+    text-transform: uppercase;
+    color: white;
+  }
+}
+
+footer {
+  position: absolute;
+  width: 287px;
+  height: 17px;
+  left: 46px;
+  top: 908px;
 }
